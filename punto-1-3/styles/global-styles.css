@@ -1,7 +1,8 @@
 /*ESTILOS GLOBALES*/
 
 body{
-    margin: 0px;  
+   
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
 }
 
 a {

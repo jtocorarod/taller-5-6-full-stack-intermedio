@@ -1,10 +1,15 @@
-#section-3 {
+#section-2 {
     margin-left: 40px;
     margin-right: 40px;
      
 }
 
-.section-3__jewelry span {
+.section-1__jewelry {
+    width: 100%;
+    height: auto;
+}
+
+.section-2__jewelry span {
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
@@ -14,7 +19,7 @@
    
 }
 
-.section-3__jewelry p {
+.section-2__jewelry p {
     text-align:justify;
     letter-spacing: 1px;
     padding-left: 18px;
@@ -26,7 +31,9 @@
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    justify-content: center;
     padding-top: 60px;
+    gap: 60px;
 }
 .section-2__card-1 h3 {
     margin: 0px;
@@ -34,6 +41,82 @@
 }
 
 .section-2__card-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    
+    width: 280px;
+    height: 420px;
+    
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px #DEB699;  
+    overflow: hidden;
+    padding: 0; 
+}
+
+.section-2__card-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    width: 280px;
+    height: 420px;
+    
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px #DEB699;  
+    overflow: hidden;
+    padding: 0; 
+}
+
+.section-2__card-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    width: 280px;
+    height: 420px;
+    
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px #DEB699;  
+    overflow: hidden;
+    padding: 0; 
+}
+
+.section-2__card-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    width: 280px;
+    height: 420px;
+    
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px #DEB699;  
+    overflow: hidden;
+    padding: 0; 
+}
+
+.section-2__card-5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    width: 280px;
+    height: 420px;
+    
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px #DEB699;  
+    overflow: hidden;
+    padding: 0; 
+}
+
+.section-2__card-6 {
     display: flex;
     flex-direction: column;
     text-align: center;

@@ -2,7 +2,7 @@
 <hr>
 
 <h2>Información</h2>
-<p>Curso Full Stack INtermedio - Grupo 1</p>
+<p>Curso Full Stack Intermedio - Grupo 1</p>
 <p>Profesor: Andres Pineda </p>
 
 <h2>Punto 1 - 3 : Link de Figma</h2>
