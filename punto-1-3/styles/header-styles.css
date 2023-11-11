@@ -1,0 +1,77 @@
+/*ESTILOS HEADER*/
+header {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    justify-content:space-between;
+    box-shadow: 0px -6px 4px 1px #00000008 inset;  
+}
+
+.header__navigation {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__navigation nav ul {
+    
+    display: flex;
+    margin-left: 80px;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__navigation img {
+    width: 200px; 
+    height: auto; 
+}
+
+.header__navigation nav ul li a {
+    
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header__shopping {
+    display: flex;
+    align-items: center; 
+}
+ 
+.header__shopping div {
+    display: flex;
+    align-items: center; 
+    gap: 12px;
+    margin-right: 70px;
+}
+
+.header__shopping div img:nth-child(1) {
+    margin-top: 2px; 
+    margin-right: 2px;
+    width: 23px;
+    height: auto;
+}
+
+.header__shopping div img:nth-child(2) {
+    margin-right: 4px;
+    width: 22px;
+    height: auto; 
+}
+
+.header__shopping div img:nth-child(3) {
+    margin-right: 4px;
+    margin-top: 2px;
+    width: 23px;
+    height: auto; 
+}
+
+
+#sale { 
+    font-size: 15px;
+    color:red;
+    text-decoration: underline;
+    }

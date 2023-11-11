@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    align-items: center;
+}
+
+.first-link {
+    color: #fefe00;
+    
+}
+
+.second-link {
+    color: #800080;
+    
+}

@@ -1,0 +1,42 @@
+
+table {   
+    border-spacing: 0;/*Elimina los espacios entre celdas*/
+    background-color: #ffff00;     
+}
+
+div {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    
+}
+
+th {
+    border: 1px dotted #000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    color: red;   
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+  } 
+
+p{
+    margin:0;
+    padding-right: 35px;
+}
+
+td {
+    border:  1px dotted #000;   
+}
+
+.td-border-style {
+    border-bottom: red 2px dashed;
+    text-align: left;
+}
+
