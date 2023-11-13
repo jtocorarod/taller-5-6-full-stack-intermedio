@@ -1,12 +1,30 @@
 #banner-2 {
     max-width: 100%;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    margin-top: 0px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.27) 0%, #DEB699 82.15%);
     text-align: center;
-    gap: 180px;
+    gap: 80px;
+    box-shadow: 0px -50px 60px 0px #FFF inset;
+    width: 100%;
+    height: auto;
+}
+
+#banner-2 h3 {
+    font-size: 1.5rem;
+    font-family: 'open sans';  
+    font-weight: bold;
+}
+
+#banner-2 p {
+    font-size: 1.2rem;
+    font-family: 'open sans';
+    color: black;  
 }
 
 .banner__shipping img {

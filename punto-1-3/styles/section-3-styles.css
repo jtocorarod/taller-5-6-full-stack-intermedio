@@ -1,14 +1,14 @@
 #section-3 {
-    padding: 120px 80px;
+    padding: 120px 0px 200px 0px;
 }
+
 
 #style-column-3 h3 {
     margin: auto;
 }
 
 .section-3__gender {
-    width: 100%;
-    height: auto;
+    padding-left: 80px;
 }
 
 .section-3__gender span {
@@ -30,11 +30,9 @@
 
 #style-column-3 {
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    justify-content: center;
-    padding-top: 80px;
+    padding-top: 110px;
     gap: 100px;
 }
 
