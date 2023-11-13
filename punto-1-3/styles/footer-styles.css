@@ -1,48 +1,139 @@
 #footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:start;
     
-    margin-top: 120px;
-    padding: 20px 100px;
-    background-color: #010851;
+    
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-right: 70px;
+    padding-left: 50px;
+    background: rgba(0, 0, 0, 0.80);
     color: #fff;
-    
-    }
-    
-    .footer__info {
-    width: 35%;
     }
 
-    input {
-        width: 220px;
-        padding: 12px 20px;
-        margin-right: -15px;
-        border: none;
-        border-radius: 8px;
-        background-color: #45486899;
+    .footer__info h3 {
+        color: #fff;
+        font-family: 'jost';
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: lighter;
+        line-height: 40px;
+    }
+    .footer__rs figure{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer__rs h3 {
+        color: #fff;
+        font-family: 'jost';
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: px;
+        font-weight: bold;
+        padding-top: 12px;
+    }
+
+    .footer__rs p {
+        color: #fff;
+        font-family: 'jost';
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: px;
+        font-weight: lighter;
+       
     }
 
     table {
-        font-family: 'Jost';
+        font-family: 'jost';
         text-align: left;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: lighter;   
     }
 
     tr {
-        height: 40px;
+        height: 70px;
     }
 
-    th {
-        height: 80px;
-    }
-
-    td {
-        padding-right: 50px;
-    }
 
     td a {
-    color: #fff;
+        color: #fff;
+            font-family: 'jost';
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+    #footer-ubicacion{
+     display: flex;
+     align-items:center;
+     justify-content:left;
+     gap: 10px;
     }
+
+    #footer-movil{
+        display: flex;
+        align-items:center;
+        justify-content:left;
+        gap: 10px;
+       }
+
+    #footer-email{
+        display: flex;
+        align-items:center;
+        justify-content:left;
+        gap: 10px;
+       }
+
+    #footer-ubicacion img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #footer-movil img{
+        width: 25px;
+        height: 30px;
+    }
+
+    #footer-email img{
+        width: 30px;
+        height: 25px;
+    }
+
+    #footer-instagram {
+        width: 41px;
+        height: auto;
+       }
+
+     #footer-facebook {
+        width:32px;
+        height: auto;
+     }
+
+     #footer-tik-tok{
+        width: 34px;
+        height: auto;
+     }
+
+    
+    .footer__info {
+       align-items: center;
+       text-align:justify;
+    }
+
+    .footer__info img {
+        width: 60%;
+        height: auto;
+    }
+
+   
+
+   
+
+
+    
       
 
      
