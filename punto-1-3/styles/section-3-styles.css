@@ -1,9 +1,48 @@
 #section-3 {
-    margin-bottom: 100px;
-    padding: 40px 60px;
+    padding: 120px 80px;
 }
 
-.section-3__jewelry {
+#style-column-3 h3 {
+    margin: auto;
+}
+
+.section-3__gender {
     width: 100%;
     height: auto;
 }
+
+.section-3__gender span {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+   
+}
+
+.section-3__gender p {
+    text-align:justify;
+    letter-spacing: 1px;
+    padding-left: 18px;
+    padding-top: 30px;
+}
+
+#style-column-3 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 100px;
+}
+
+#style-column-3 img {
+    max-width: 116%; 
+    height: auto; 
+    display: block;
+}
+
+
+

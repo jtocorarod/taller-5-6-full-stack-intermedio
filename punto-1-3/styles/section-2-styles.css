@@ -1,6 +1,5 @@
 #section-2 {
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: 40px 80px;
      
 }
 
@@ -41,103 +40,8 @@
     para que queden 3 elementos por fila y no agregar margenes individuales */
 }
 
-#style-column-2 h3 {
-    font-size: 28px;   
-}
-
 #style-column-2 img {
     max-width: 120%; 
     height: auto; 
     display: block;
-}
-.section-2__card-1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    
-    width: 240px;
-    height: 350px;
-    
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px #DEB699;  
-    overflow: hidden;
-    padding: 0; 
-}
-
-.section-2__card-2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content:space-between;
-    
-    width: 240px;
-    height: 350px;
-    
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px #DEB699;  
-    overflow: hidden;
-    padding: 0; 
-}
-
-.section-2__card-3 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    
-    width: 240px;
-    height: 350px;
-    
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px #DEB699;  
-    overflow: hidden;
-    padding: 0; 
-}
-
-.section-2__card-4 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    
-    width: 240px;
-    height: 350px;
-    
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px #DEB699;  
-    overflow: hidden;
-    padding: 0; 
-}
-
-.section-2__card-5 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-   
-    width: 240px;
-    height: 350px;
-    
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px #DEB699;  
-    overflow: hidden;
-    padding: 0; 
-}
-
-.section-2__card-6 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    
-    width: 240px;
-    height: 350px;
-    
-    border-radius: 30px;
-    box-shadow: 0px 5px 15px #DEB699;  
-    overflow: hidden;
-    padding: 0; 
 }
