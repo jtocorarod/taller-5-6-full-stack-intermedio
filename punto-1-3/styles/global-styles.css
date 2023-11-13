@@ -9,6 +9,7 @@ a {
     font-family: 'cinzel';
     font-size: 15px;
     text-decoration: none;
+    color: #000;
 }
 
 p {   
@@ -20,7 +21,6 @@ p {
 
 h1 { 
     font-family: 'cinzel';
-    font-size: 60px;
     color: #000;
     line-height: 75px;
     letter-spacing: 2px;
@@ -39,7 +39,7 @@ h3 {
     color: #000;
     font-family: 'cinzel';
     letter-spacing: 2px;
-
+    font-size: 25px;
 }
 
 .button-red {
@@ -83,4 +83,16 @@ h3 {
     box-shadow: 0px 5px 15px #DEB699;  
     overflow: hidden;
     padding: 0; 
+}
+
+/* regla para manejar el h1 no visible pero accesible paa usuario con discapacidad */
+.visually-hidden {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }

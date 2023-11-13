@@ -2,7 +2,8 @@
 
 #section-1 {
     padding: 40px 80px;
-    margin-bottom: 120px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .section-1__colecctions {
@@ -33,29 +34,15 @@
    padding-top: 120px;
 }
 
-.section-1__card-1 img {
-    max-width: 150%; /* Asegura que la imagen no exceda el ancho del contenedor */
+.section_card img {
+     /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 150%;
     height: auto; /* Mantiene la proporción de la imagen al ajustar el ancho */
-    margin: 0px;
+    margin: -10px;
    
 }
 
-.section-1__card-1 h3 {
-    align-content: center;
-    margin-top: -10px;
-}
 
-  
-    .section-1__card-2 img {
-        max-width: 150%; 
-        height: auto; 
-    }
-    
-    .section-1__card-2 h3 {
-        font-size: 1.5rem; 
-        margin-top: -10px;
-        font-weight: bold;  
-    }
 
 
 

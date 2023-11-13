@@ -6,8 +6,8 @@
     
     margin-top: 100px;
     padding-top: 40px;
-    padding-right: 70px;
-    padding-left: 50px;
+    
+    padding-left: 60px;
     background: rgba(0, 0, 0, 0.80);
     color: #fff;
     }
@@ -42,8 +42,7 @@
         text-align: left;
         font-size: 14px;
         letter-spacing: px;
-        font-weight: lighter;
-       
+        font-weight: lighter;  
     }
 
     table {
@@ -51,21 +50,27 @@
         text-align: left;
         font-size: 15px;
         letter-spacing: 2px;
-        font-weight: lighter;   
+        font-weight: lighter;      
     }
 
     tr {
         height: 70px;
     }
 
+    .column_footer{
+       width: 140px;
+       padding-right: 40px;
+    }
 
     td a {
         color: #fff;
             font-family: 'jost';
             font-size: 14px;
             text-decoration: none;
+            padding-right: 50px;
+            white-space: nowrap; /* Evita el salto de línea */
         }
-
+        
     #footer-ubicacion{
      display: flex;
      align-items:center;

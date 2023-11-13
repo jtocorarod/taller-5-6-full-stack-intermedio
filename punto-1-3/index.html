@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <!-- Configuración básica del documento -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyería JShop</title>
+
+    <!-- Seguridad - con una exepción(fuentes de google) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; script-src 'self'">
+
+    <!-- Titulo,meta descripción y favicon -->
+    <title>Joyería JShop - Joyas de Plata 925 y Oro Laminado</title>
+    <meta name="description" content="Tienda de joyas en Bogotá con colecciones de plata 925 y oro laminado. Envíos nacionales, garantía de por vida y pago seguro con Mercado Pago.">
+    <link rel="icon" href="./public/images/favicon-joyeria-jshop.png" type="image/x-icon">
+
+    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300;400;500&family=Titillium+Web&display=swap" rel="stylesheet">
+   
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="./styles/global-styles.css">
     <link rel="stylesheet" href="./styles/header-styles.css">
     <link rel="stylesheet" href="./styles/banner-styles.css">
@@ -16,6 +28,10 @@
     <link rel="stylesheet" href="./styles/section-3-styles.css">
     <link rel="stylesheet" href="./styles/banner-2-styles.css">
     <link rel="stylesheet" href="./styles/footer-styles.css">
+    
+    
+    
+    
 <body>
     <div id="promo-banner">
        ENTREGAS EN EL MISMO DÍA EN BOGOTA
@@ -23,6 +39,7 @@
 
     <header>
             <div class="header__navigation">
+                <h1 class="visually-hidden">Joyería JShop - Joyas de Plata 925 y Oro Laminado</h1>
                 <a href="index.html"> <img src="./public/images/header-logo.png" alt="main-logo"> </a>
                 <nav>
                     <ul>
@@ -54,9 +71,9 @@
             <section id="banner">
                 <div>
                     <div>
-                        <h1>DESCUBRE NUESTRA 
+                        <h2>DESCUBRE NUESTRA 
                             COLECCIÓN DE 
-                            JOYAS EN PLATA 925</h1>    
+                            JOYAS EN PLATA 925</h2>    
                     </div>
                     
                     <div>
@@ -263,9 +280,9 @@
         <div>
             <table>
                 <tr>
-                    <th style="width: 250px;">LEGAL</th>
-                    <th style="width: 160px;" >COMPAÑIA</th>
-                    <th style="width: 260px;"">RECURSOS</th>
+                    <th>LEGAL</th>
+                    <th class="column_footer"" >COMPAÑIA</th>
+                    <th >RECURSOS</th>
                 </tr>
                 <tr>
                     <td><a href="">Aviso Legal</a></td>
@@ -292,22 +309,21 @@
                 <h3>SOCIAL</h3>
                 <P>Síguenos en:</P>
                     <figure>
-                        <a href="https://instagram.com/relojeriajshop" target="_blank">
+                        <a href="https://instagram.com/relojeriajshop" target="_blank" rel="noopener noreferrer">
                             <img id="footer-instagram" src="./public/images/footer-instagram.PNG"
-                            alt="instagram-joyería-jshop">
+                            alt="Síguenos en Instagram - Joyería JShop">
                         </a>
                         
-                        <a href="https://facebook.com/jshoprelojeria" target="_blank">
+                        <a href="https://facebook.com/jshoprelojeria" target="_blank" rel="noopener noreferrer"> 
                             <img id="footer-facebook" src="./public/images/footer-facebok.PNG"
-                            alt="facebook-joyería-jshop"> 
+                            alt="Síguenos en Facebook - Joyería JShop"> 
                         </a>
                         
-                        <a href="https://www.tiktok.com/@relojeriajshop" target="_blank">
+                        <a href="https://www.tiktok.com/@relojeriajshop" target="_blank" rel="noopener noreferrer">
                             <img id="footer-tik-tok" src="./public/images/footer-tik-tok.PNG"
-                            alt="tik-tok-joyería-jshop"
+                            alt="Síguenos en TikTok - Joyería JShop"
                             > 
-                        </a>
-                        
+                        </a>   
                     </figure>   
             </div>
         </div>
