@@ -133,7 +133,12 @@
         height: auto;
     }
 
-   
+   .autocrat {
+ 
+        display: none;
+
+      
+   }
 
    
 
